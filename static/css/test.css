@@ -1,0 +1,11 @@
+body{
+  background-image: url('../images/grey.png');
+  margin:0 0 80px 80px;
+}
+.que{
+  background-color: black
+  color:grey;
+}
+.option{
+  color:blue;
+}

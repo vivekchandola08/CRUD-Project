@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="{% static 'css/test.css' %}">
+    <meta charset="utf-8">
+    <title>exam</title>
+  </head>
+  <body>
+    <div class='prob'>
+      <div class='que'>
+
+       <h1>{{que}}</h1>
+       </div>
+       <div class='option'>
+       <input type=radio name='t1'>{{a}}<br>
+       <input type=radio name='t1'>{{b}}<br>
+       <input type=radio name='t1'>{{c}}<br>
+       <input type=radio name='t1'>{{d}}<br>
+       </div>
+    </div>
+</body>
+</html>
